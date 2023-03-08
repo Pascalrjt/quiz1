@@ -1,5 +1,5 @@
 body {
-    background-image: url('headerImage_mlg.jpg');
+    background-image: url("https://tripperhood.com/wp-content/uploads/2015/11/goo5.jpg");
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
@@ -18,7 +18,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Change the alpha value to adjust the opacity of the haze */
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: -1;
   }
   
@@ -41,10 +41,8 @@ body {
     display: flex;
   }
   nav li {
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
-    position: relative;
+    margin: 0 10px;
+    padding: 5px;
   }
   nav a {
     color: white;
